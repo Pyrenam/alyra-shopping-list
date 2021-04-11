@@ -22,7 +22,7 @@ const handleFormSubmit = (event) => {
         required
       />
       
-      <button type="submit" className="btn btn-success btn-lg">
+      <button type="submit" className ="btn btn-success btn-lg">
         J'ajoute !
             </button>
     </div>

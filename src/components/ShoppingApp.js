@@ -31,11 +31,11 @@ const ShoppingApp = () => {
           <h2 className="mb-3 h4">Ajouter un produit :</h2>
            
            <AddProductForm 
-            shopping={shopping}
+            shopping= {shopping}
             addToShoppingList={addToShoppingList} />
           
           <AddPopularProduct
-            shopping={shopping}
+            shopping= {shopping}
             addToShoppingList={addToShoppingList}/>
         
         </div>

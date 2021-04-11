@@ -4,9 +4,9 @@ const Product = (props) =>{
     removeFromShoppingList (product)
   }
 return (
-  <div class="d-flex align-items-center justify-content-between">
+  <div className="d-flex align-items-center justify-content-between">
     {product}
-    <button class="btn btn-sm btn-warning" onClick={handleButtonClick} >ok</button>
+    <button className="btn btn-sm btn-warning" onClick={handleButtonClick} >ok</button>
   </div>
  )
 

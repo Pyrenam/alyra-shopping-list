@@ -10,8 +10,8 @@ const AddPopularProduct = (props) =>{
   const {shopping,addToShoppinList} = props 
   return (
   <section>
-    <h3 class="h5">Avez vous besoin de ?</h3>
-    <div class="mb-3 d-flex flex-wrap align-items-center">
+    <h3 className="h5">Avez vous besoin de ?</h3>
+    <div className="mb-3 d-flex flex-wrap align-items-center">
       {populars.map(el=> {
         return (
         <button key={el.text}

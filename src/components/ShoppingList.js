@@ -1,5 +1,5 @@
 import Product from "./Product"
-import {useState} from "react"
+/*import {useState} from "react"*/
 
 const ShoppingList = (props) => {
   const { shopping, removeFromShoppingList,filter,setFilter} = props
@@ -11,7 +11,7 @@ const ShoppingList = (props) => {
   
   return(
   <>
-      <h2 class="mb-3 h4">Produits à acheter ({shopping.lentgh}) :</h2> 
+      <h2 className="mb-3 h4">Produits à acheter ({shopping.lentgh}) :</h2> 
           
           <div className="input-group mb-3">
               <span role="img" aria-label="search" className="input-group-text">
@@ -42,7 +42,7 @@ const ShoppingList = (props) => {
                   </p>
               )}
 
-    <ol class="list-group mb-3 shadow">
+    <ol className="list-group mb-3 shadow">
         {filteredShopping.map((product) => {
         
          return (
